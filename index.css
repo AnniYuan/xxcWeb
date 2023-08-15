@@ -137,7 +137,7 @@
   width: 139px;
   height: 50px;
 }
-.div7,
+.养老护工-wrapper,
 .div8 {
   position: absolute;
   top: 173px;
@@ -266,13 +266,13 @@
   height: 237px;
   object-fit: cover;
 }
-.div13,
+.家电清洗-wrapper,
 .div14,
 .div15 {
   position: absolute;
   line-height: 23px;
 }
-.div13 {
+.家电清洗-wrapper {
   top: 255px;
   left: 0;
   font-size: var(--font-size-base);
@@ -301,14 +301,14 @@
   width: 561px;
   height: 370px;
 }
-.div16,
+.兼职厨师-wrapper,
 .div17,
 .div18 {
   position: absolute;
   letter-spacing: 0.11em;
   line-height: 23px;
 }
-.div16 {
+.兼职厨师-wrapper {
   top: 61px;
   left: 490px;
   font-weight: 800;
@@ -425,7 +425,7 @@
   left: 37px;
   font-size: var(--font-size-mini);
 }
-.div25,
+.家电维修-wrapper,
 .parent3 {
   position: absolute;
   top: 0;
@@ -436,11 +436,11 @@
   height: 107px;
   color: var(--color-white);
 }
-.div25 {
+.家电维修-wrapper {
   left: 125px;
   font-weight: 500;
 }
-.div25,
+.家电维修-wrapper,
 .div26,
 .div27 {
   line-height: 23px;
@@ -481,12 +481,12 @@
   width: 537px;
   height: 107px;
 }
-.div28,
+.居家保洁-wrapper,
 .div29 {
   position: absolute;
   line-height: 23px;
 }
-.div28 {
+.居家保洁-wrapper {
   top: 1px;
   left: 125px;
   font-weight: 500;
@@ -1476,54 +1476,7 @@
   width: 159px;
   height: 47px;
 }
-.首页,
-.服务行业 {
-  position: absolute;
-  top: 0;
-}
-.首页 {
-  left: 0;
-  font-weight: 800;
-  color: var(--color-royalblue-100);
-}
-.服务行业 {
-  left: 105px;
-  font-weight: 500;
-  cursor: pointer;
-}
-.零工风采,
-.技能培训,
-.行业动态,
-.帮助中心,
-.联系我们 {
-  position: absolute;
-  top: 0;
-  left: 250px;
-  font-weight: 500;
-}
-.技能培训,
-.行业动态,
-.帮助中心,
-.联系我们 {
-  left: 395px;
-}
-.行业动态,
-.帮助中心,
-.联系我们 {
-  left: 540px;
-}
-.帮助中心,
-.联系我们 {
-  left: 685px;
-}
-.联系我们 {
-  left: 830px;
-}
-.目录 {
-  position: relative;
-  width: 910px;
-  height: 28px;
-}
+
 .b19,
 .child16 {
   position: absolute;
@@ -1548,7 +1501,7 @@
   color: var(--color-white);
   font-family: var(--font-montserrat);
 }
-.header-title {
+.header-wrapper {
   position: absolute;
   top: 24px;
   left: 58px;
@@ -1558,15 +1511,7 @@
   justify-content: flex-start;
   gap: 65px;
 }
-.header-section {
-  position: absolute;
-  top: 1px;
-  left: 0;
-  width: 1440px;
-  height: 93px;
-  font-size: var(--font-size-xl);
-  color: var(--color-dimgray-100);
-}
+
 .desktop-1 {
   position: relative;
   background-color: var(--color-white);
@@ -1578,3 +1523,4 @@
   color: var(--color-white);
   font-family: var(--font-pingfang-sc);
 }
+

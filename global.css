@@ -19,6 +19,8 @@ body {
   --font-size-11xl: 30px;
   --font-size-xs: 12px;
   --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+
 
   /* Colors */
   --color-white: #fff;
@@ -29,6 +31,10 @@ body {
   --color-black: #000;
   --color-darkslategray-100: #333;
   --color-darkslategray-200: #172d42;
+  --color-royalblue-200: rgba(52, 120, 246, 0.6);
+  --color-dimgray: #696968;
+  --color-lightsteelblue: #bcd7ff;
+  --color-darkslategray: #333;
 
   /* Gaps */
   --gap-105xl: 124px;
@@ -37,4 +43,35 @@ body {
   --br-9xs: 4px;
   --br-smi: 13px;
   --br-8xs: 5px;
+
+}
+
+/* Custom CSS for Non-Active Navigation Links */
+.nav-link {
+  color: #696968;
+  font-family: PingFang SC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Custom CSS for Active Navigation Link */
+.nav-link.active {
+  color: #3478F6;
+  font-family: PingFang SC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* Add any other custom styles you want for the active link */
+}
+.header-section {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 1440px;
+  height: 93px;
+  font-size: var(--font-size-xl);
+  color: var(--color-dimgray-100);
 }

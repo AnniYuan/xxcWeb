@@ -146,7 +146,7 @@
   left: 62px;
 }
 
-.div7, .div8 {
+.养老护工-wrapper, .div8 {
   font-size: var(--font-size-base);
   letter-spacing: .1em;
   font-weight: 500;
@@ -284,12 +284,12 @@
   left: 0;
 }
 
-.div13, .div14, .div15 {
+.家电清洗-wrapper, .div14, .div15 {
   line-height: 23px;
   position: absolute;
 }
 
-.div13 {
+.家电清洗-wrapper {
   font-size: var(--font-size-base);
   font-weight: 500;
   top: 255px;
@@ -322,13 +322,13 @@
   left: 0;
 }
 
-.div16, .div17, .div18 {
+.兼职厨师-wrapper, .div17, .div18 {
   letter-spacing: .11em;
   line-height: 23px;
   position: absolute;
 }
 
-.div16 {
+.兼职厨师-wrapper {
   font-weight: 800;
   top: 61px;
   left: 490px;
@@ -451,7 +451,7 @@
   left: 37px;
 }
 
-.div25, .parent3 {
+.家电维修-wrapper, .parent3 {
   position: absolute;
   top: 0;
 }
@@ -463,12 +463,12 @@
   left: 0;
 }
 
-.div25 {
+.家电维修-wrapper {
   font-weight: 500;
   left: 125px;
 }
 
-.div25, .div26, .div27 {
+.家电维修-wrapper, .div26, .div27 {
   line-height: 23px;
 }
 
@@ -511,12 +511,12 @@
   left: 0;
 }
 
-.div28, .div29 {
+.居家保洁-wrapper, .div29 {
   line-height: 23px;
   position: absolute;
 }
 
-.div28 {
+.居家保洁-wrapper {
   font-weight: 500;
   top: 1px;
   left: 125px;
@@ -1578,52 +1578,6 @@
   position: relative;
 }
 
-.首页, .服务行业 {
-  position: absolute;
-  top: 0;
-}
-
-.首页 {
-  color: var(--color-royalblue-100);
-  font-weight: 800;
-  left: 0;
-}
-
-.服务行业 {
-  cursor: pointer;
-  font-weight: 500;
-  left: 105px;
-}
-
-.零工风采, .技能培训, .行业动态, .帮助中心, .联系我们 {
-  font-weight: 500;
-  position: absolute;
-  top: 0;
-  left: 250px;
-}
-
-.技能培训, .行业动态, .帮助中心, .联系我们 {
-  left: 395px;
-}
-
-.行业动态, .帮助中心, .联系我们 {
-  left: 540px;
-}
-
-.帮助中心, .联系我们 {
-  left: 685px;
-}
-
-.联系我们 {
-  left: 830px;
-}
-
-.目录 {
-  width: 910px;
-  height: 28px;
-  position: relative;
-}
-
 .b19, .child16 {
   position: absolute;
 }
@@ -1651,7 +1605,7 @@
   position: relative;
 }
 
-.header-title {
+.header-wrapper {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -1660,16 +1614,6 @@
   position: absolute;
   top: 24px;
   left: 58px;
-}
-
-.header-section {
-  font-size: var(--font-size-xl);
-  color: var(--color-dimgray-100);
-  width: 1440px;
-  height: 93px;
-  position: absolute;
-  top: 1px;
-  left: 0;
 }
 
 .desktop-1 {
