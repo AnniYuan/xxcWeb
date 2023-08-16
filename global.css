@@ -25,16 +25,18 @@ body {
   /* Colors */
   --color-white: #fff;
   --color-royalblue-100: #3478f6;
-  --color-dimgray-100: #696968;
+  --color-royalblue: #3478f6;
+  --color-royalblue-200: rgba(52, 120, 246, 0.6);
   --color-gainsboro: #d9d9d9;
-  --color-gray-100: #1e1e1e;
   --color-black: #000;
   --color-darkslategray-100: #333;
   --color-darkslategray-200: #172d42;
-  --color-royalblue-200: rgba(52, 120, 246, 0.6);
-  --color-dimgray: #696968;
   --color-lightsteelblue: #bcd7ff;
   --color-darkslategray: #333;
+  --color-gray: #7e7e7e;
+  --color-gray-100: #1e1e1e;
+  --color-dimgray: #696968;
+  --color-dimgray-100: #696968;
 
   /* Gaps */
   --gap-105xl: 124px;
@@ -74,4 +76,53 @@ body {
   height: 93px;
   font-size: var(--font-size-xl);
   color: var(--color-dimgray-100);
+}
+
+.header-wrapper {
+  position: absolute;
+  top: 24px;
+  left: 58px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 65px;
+}
+.header-bg {
+  position: absolute;
+  left: 0;
+  width: 1440px;
+  top: 0;
+  background-color: var(--color-white);
+  height: 93px;
+}
+.logo {
+  position: relative;
+  background-color: var(--color-gainsboro);
+  width: 159px;
+  height: 47px;
+}
+.b19,
+.child16 {
+  position: absolute;
+}
+.child16 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-royalblue-100);
+  width: 104px;
+  height: 37px;
+}
+.b19 {
+  top: 8px;
+  left: 20px;
+}
+.div84 {
+  position: relative;
+  width: 104px;
+  height: 37px;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-montserrat);
 }
