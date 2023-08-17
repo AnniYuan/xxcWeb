@@ -30,7 +30,7 @@
   top: 0;
   left: 0;
   background-color: var(--color-royalblue-100);
-  width: 1458px;
+  width: 100%;
   height: 393px;
 }
 .div1 {
@@ -127,12 +127,12 @@
   top: 242px;
   left: 0;
   background-color: var(--color-white);
-  width: 1513px;
+  width: 100%;
   height: 1px;
 }
 .footer-inner {
   top: 49px;
-  left: 62px;
+  left: 6%;
   background-color: var(--color-gainsboro);
   width: 139px;
   height: 50px;
@@ -160,7 +160,7 @@
 .xxxx-2023 {
   position: absolute;
   top: 277px;
-  left: 62px;
+  left: 6%;
   letter-spacing: 0.1em;
 }
 .xiangxiaochou126com,
@@ -190,7 +190,7 @@
 }
 .footer {
   top: 4289px;
-  width: 1513px;
+  width: 100%;
   height: 393px;
   text-align: left;
   font-size: var(--font-size-xs);
@@ -200,7 +200,7 @@
 .凝聚正能量,
 .item {
   top: 4214px;
-  width: 1440px;
+  width: 100%;
   height: 75px;
   object-fit: cover;
 }
@@ -345,16 +345,16 @@
 }
 .group-parent {
   top: 0;
-  width: 409px;
+  width: 45%;
   height: 83px;
   color: var(--color-black);
 }
-.container,
+.zx-container,
 .vector-parent {
-  position: absolute;
-  width: 561px;
+  position: relative;
+  /*width: 561px;*/
 }
-.container {
+.zx-container {
   top: 436px;
   left: 0;
   height: 84px;
@@ -532,8 +532,9 @@
   position: absolute;
 }
 .group {
+  position: relative;
   top: 48px;
-  left: 90px;
+  /*left: 15%;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -543,15 +544,16 @@
 .资讯 {
   top: 3353px;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 861px;
   font-size: var(--font-size-11xl);
   color: var(--color-darkslategray-200);
+  /*background-image: url("./public/rectangle-87@2x.png");*/
 }
 .inner {
   position: relative;
   background-color: rgba(52, 120, 246, 0.16);
-  width: 1440px;
+  /*width: 1440px;*/
   height: 791px;
   z-index: 0;
 }
@@ -594,11 +596,11 @@
   gap: 24px;
 }
 .group-child7 {
-  position: absolute;
-  top: 17px;
-  left: 640px;
-  width: 640px;
-  height: 450px;
+  position: relative;
+  /*top: 17px;*/
+  /*left: 640px;*/
+  /*width: 640px;*/
+  /*height: 450px;*/
   object-fit: cover;
 }
 .n-1-icon {
@@ -665,11 +667,11 @@
   font-weight: 600;
 }
 .rectangle-parent1 {
-  position: absolute;
-  top: 113px;
+  position: relative;
+  top: 30%;
   left: 0;
-  width: 83px;
-  height: 32px;
+  /* width: 83px; */
+  /* height: 32px; */
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-white);
@@ -695,8 +697,9 @@
 }
 .rectangle-container {
   position: relative;
-  width: 1280px;
-  height: 467px;
+  width: 80%;
+  height: 100%;
+  /*left: 10%;*/
   text-align: justify;
   font-size: var(--font-size-base);
   color: var(--color-black);
@@ -704,14 +707,14 @@
 }
 .零工服务平台介绍,
 .div35 {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  position: relative;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: flex-start;*/
 }
 .div35 {
   margin: 0 !important;
-  top: 16px;
+  top: 60px;
   left: 0;
   height: 668px;
   align-items: center;
@@ -719,8 +722,8 @@
   z-index: 1;
 }
 .零工服务平台介绍 {
-  top: 2562px;
-  left: 2px;
+  position: relative;
+  top: 2100px;
   height: 791px;
   align-items: flex-start;
   gap: 10px;
@@ -736,8 +739,8 @@
   position: absolute;
   top: 46px;
   left: 1px;
-  width: 343px;
-  height: 142px;
+  width: 100%;
+  height: 100%;
 }
 .b11,
 .child2,
@@ -762,8 +765,8 @@
 }
 .b11,
 .child5 {
-  left: 1160.63px;
-  width: 352px;
+  left: 63%;
+  width: 38%;
 }
 .b11 {
   top: 45px;
@@ -894,10 +897,10 @@
   color: #6b6d70;
 }
 .下单流程 {
-  top: 2374px;
+  top: 2470px;
   left: -1px;
-  width: 1512.63px;
-  height: 188px;
+  width: 100%;
+  height: 150px;
   text-align: center;
   font-size: var(--font-size-base);
 }
@@ -1145,19 +1148,19 @@
 .行业领先的服务模式,
 .div42 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .div42 {
-  width: 1109px;
+  width: 1140px;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
   gap: 136px;
 }
 .行业领先的服务模式 {
-  position: absolute;
-  top: 1826px;
-  left: 178px;
+  position: relative;
+  top: 1900px;
+  /*left: 20%;*/
   flex-direction: column;
   align-items: center;
   gap: 25px;
@@ -1168,7 +1171,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 1440px;
+  width: 100%;
   height: 1020px;
   object-fit: cover;
 }
@@ -1315,16 +1318,16 @@
   color: var(--color-gray-100);
 }
 .pg-order-content {
-  position: absolute;
-  top: 33px;
-  left: 167px;
+  position: relative;
+  top: 10%;
+  /*left: 18%;*/
   width: 1100px;
   height: 824px;
 }
 .banner-pic-icon,
 .手机线上下单操作步骤 {
   position: absolute;
-  width: 1440px;
+  width: 100%;
 }
 .手机线上下单操作步骤 {
   top: 848px;
@@ -1348,7 +1351,7 @@
 .banner-filter {
   left: 0;
   background-color: #002959;
-  width: 1440px;
+  width: 100%;
   height: 714px;
   opacity: 0.7;
 }
@@ -1448,15 +1451,15 @@
   font-size: var(--font-size-3xs);
 }
 .banner-content {
-  position: absolute;
+  position: relative;
   top: 203.84px;
-  left: 217px;
+  /* left: 20%; */
   gap: 160px;
 }
 .banner-section{
   position: absolute;
   left: 0;
-  width: 1440px;
+  width: 100%;
 }
 .banner-section {
   top: 94px;
@@ -1465,37 +1468,6 @@
   font-size: var(--font-size-13xl);
 }
 
-/*.logo {*/
-/*  position: relative;*/
-/*  background-color: var(--color-gainsboro);*/
-/*  width: 159px;*/
-/*  height: 47px;*/
-/*}*/
-
-/*.b19,*/
-/*.child16 {*/
-/*  position: absolute;*/
-/*}*/
-/*.child16 {*/
-/*  top: 0;*/
-/*  left: 0;*/
-/*  border-radius: var(--br-9xs);*/
-/*  background-color: var(--color-royalblue-100);*/
-/*  width: 104px;*/
-/*  height: 37px;*/
-/*}*/
-/*.b19 {*/
-/*  top: 8px;*/
-/*  left: 20px;*/
-/*}*/
-/*.div84 {*/
-/*  position: relative;*/
-/*  width: 104px;*/
-/*  height: 37px;*/
-/*  font-size: var(--font-size-base);*/
-/*  color: var(--color-white);*/
-/*  font-family: var(--font-montserrat);*/
-/*}*/
 
 
 .desktop-1 {
@@ -1510,3 +1482,35 @@
   font-family: var(--font-pingfang-sc);
 }
 
+.div16 {
+  position: relative;
+  top: 100%;
+}
+
+.group-div,
+.parent1,
+.parent2{
+  width: 100%;
+}
+
+.div25{
+  position: absolute;
+  top: 0;
+  left: 125px;
+  line-height: 23px;
+  color: var(--color-royalblue-100);
+  font-weight: bolder
+}
+
+.aa02f2e6266ab09ed52848f256a724-icon{
+  left:75%;
+}
+.div8.xcx{
+  left:76%;
+}
+.e0258490bb7c7df8cfb7f18a-1-icon {
+  left: 85%;
+}
+.div8 {
+  left: 86%;
+}
