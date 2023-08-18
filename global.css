@@ -7,7 +7,7 @@ body {
   /* fonts */
   --font-montserrat: Montserrat;
   --font-pingfang-sc: "PingFang SC";
-
+  --font-abel: Abel;
   /* font sizes */
   --font-size-base: 16px;
   --font-size-xl: 20px;
@@ -20,6 +20,15 @@ body {
   --font-size-xs: 12px;
   --font-size-5xl: 24px;
   --font-size-21xl: 40px;
+  --font-size-29xl: 48px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+  --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --font-size-21xl: 40px;
+  --font-size-13xl: 32px;
+  --font-size-29xl: 48px;
+  --font-size-45xl: 64px;
 
 
   /* Colors */
@@ -38,6 +47,17 @@ body {
   --color-dimgray: #696968;
   --color-dimgray-100: #696968;
 
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9d9d9;
+  --f6: #3478f6;
+  --color: #333;
+  --color-black: #000;
+  --color-dimgray-100: #696968;
+  --color-goldenrod-100: #e4b543;
+  --color-goldenrod-200: #e3b341;
+  --color-red: #e40909;
+  --color-lavender: #ccdeff;
   /* Gaps */
   --gap-105xl: 124px;
 
@@ -45,7 +65,8 @@ body {
   --br-9xs: 4px;
   --br-smi: 13px;
   --br-8xs: 5px;
-
+  --br-9xl: 28px;
+  --br-xs: 12px;
 }
 
 /* Custom CSS for Non-Active Navigation Links */
@@ -79,14 +100,15 @@ body {
 }
 
 .header-wrapper {
-  position: absolute;
+  position: relative;
+  width: 100%;
   top: 24px;
   left: 58px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  gap: 65px;
+  gap: 10%;
 }
 .header-bg {
   position: absolute;
@@ -125,4 +147,191 @@ body {
   font-size: var(--font-size-base);
   color: var(--color-white);
   font-family: var(--font-montserrat);
+}
+
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 393px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-pingfang-sc);
+}
+
+.footer-child {
+  position: absolute;
+  top: 414px;
+  left: 1415px;
+  width: 25px;
+  height: 70px;
+}
+.footer-child {
+  top: 0;
+  left: 0;
+  background-color: var(--color-royalblue-100);
+  width: 100%;
+  height: 393px;
+}
+.footer-div1 {
+  top: 102.87px;
+  left: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: 72.36px;
+  height: 19.87px;
+}
+.footer-b1,
+.footer-div1,
+.footer-div2,
+.footer-div3 {
+  position: absolute;
+}
+.footer-div2 {
+  top: 77px;
+  left: 0;
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: 72.36px;
+  height: 19.87px;
+}
+.footer-b1,
+.footer-div3 {
+  height: 20px;
+}
+.footer-b1 {
+  top: 79px;
+  left: 155px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+  width: 161px;
+}
+.footer-div3 {
+  top: 51px;
+  left: 0;
+  width: 91px;
+}
+.footer-div3,
+.footer-div4,
+.footer-div5 {
+  letter-spacing: 0.1em;
+  display: flex;
+  align-items: center;
+}
+.footer-div4 {
+  position: absolute;
+  top: 51px;
+  left: 155px;
+  font-size: var(--font-size-base);
+  width: 167px;
+  height: 20px;
+}
+.footer-div5 {
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+  width: 91px;
+  height: 24px;
+}
+.footer-div5,
+.footer-div6,
+.footer-parent {
+  position: absolute;
+}
+.footer-div6 {
+  top: 0;
+  left: 155px;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 91px;
+  height: 24px;
+}
+.footer-parent {
+  top: 52px;
+  left: 265px;
+  width: 322px;
+  height: 122.75px;
+  font-size: var(--font-size-sm);
+}
+.footer-inner,
+.footer-item {
+  position: absolute;
+  top: 242px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1px;
+}
+.footer-inner {
+  top: 49px;
+  left: 6%;
+  background-color: var(--color-gainsboro);
+  width: 139px;
+  height: 50px;
+}
+
+.footer-div8 {
+  position: absolute;
+  top: 173px;
+  left: 1101px;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  display: flex;
+  align-items: center;
+  width: 93px;
+  height: 17px;
+}
+.footer-div8 {
+  left: 1242px;
+  width: 88px;
+}
+.footer-div9,
+.xiangxiaochou126com,
+.xxxx-2023 {
+  position: absolute;
+  top: 277px;
+  left: 6%;
+  letter-spacing: 0.1em;
+}
+.xiangxiaochou126com,
+.xxxx-2023 {
+  top: 301px;
+}
+.xxxx-2023 {
+  top: 253px;
+}
+.footer-pic1,
+.footer-pic2 {
+  position: absolute;
+  top: 46px;
+  left: 1080px;
+  width: 119px;
+  height: 119px;
+  object-fit: cover;
+}
+.footer-pic2 {
+  left: 1226px;
+}
+.footer-pic1{
+  left:75%;
+}
+.footer-div8.xcx{
+  left:76%;
+}
+.footer-pic2 {
+  left: 85%;
+}
+.footer-div8 {
+  left: 86%;
 }
